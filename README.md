@@ -1,5 +1,5 @@
 # vim-starter-kit
-Basic Vim configuration for users switching to VIM from other modern editors(Sublime-text, Atom).
+Basic Vim configuration for users switching to VIM from other modern editors (Sublime-text, Atom).
 
 ## Installation
 * First backup you existing `~/.vimrc` file and `~/.vim` folder. (Not needed if you haven't used VIM before)
