@@ -11,4 +11,7 @@ Basic Vim configuration for users switching to Vim from other modern editors.
   ``` $ ln -s ~/.vim/vimrc ~/.vimrc ```
   
   ``` $ ln -s ~/.vim/gvimrc ~/.gvimrc ```
+* Install Vim plugins
+
+  ``` $ vim +PlugInstall ```
 * Enjoy.
