@@ -24,4 +24,18 @@ Basic Vim configuration for users switching to Vim from other modern editors.
   ```
 * Enjoy.
 
+## Shortcuts
+Modifier Keys : Ctrl, Meta, Leader, Shift
+* C-x (Control + x)
+* M-x (Meta + x)
+* S-x (Shift + x)
+* <leader>x (Leader, x)
+
+I've modified `Leader` key to `<Space>` (default `Leader` = `\`) for the convenient. You can set your own `Leader` key and `Meta` key.
+
+These are the Shortcuts I have defined in `~/.vimrc`.
+* <Arrow keys> : NOP (Arrow key for navigating file doesn't work, use `hjkl` instead)
+* `jk` : `ESC` (to switch to Normal mode from Insert mode, press `jk`)
+* `;`  : : (Switch to command mode form normal mode bye pressing `;(:)`)
+
 ![Preview](_assets/preview.png "Preview.")
