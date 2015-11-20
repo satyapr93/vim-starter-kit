@@ -1,0 +1,6 @@
+.DS_Store
+viminfo*
+bundle/**
+!bundle/README.md
+undo/**
+plugged/**
