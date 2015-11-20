@@ -2,7 +2,7 @@
 Basic Vim configuration for users switching to Vim from other modern editors.
 
 ## Installation
-* First backup you existing `~/.vimrc` file and `~/.vim` folder. (Node needed if you haven't used VIM before)
+* First backup you existing `~/.vimrc` file and `~/.vim` folder. (Not needed if you haven't used VIM before)
 * Clone the repository. 
 
   ```bash
