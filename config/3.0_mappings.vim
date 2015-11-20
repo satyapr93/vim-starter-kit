@@ -7,7 +7,6 @@ noremap <Right> <NOP>
 nnoremap ; :
 nnoremap q; q:
 cnoremap jk <ESC>
-"vnoremap jk <ESC>
 inoremap jk <ESC>
 
 "----------update existing mappings--------------------------------------------
@@ -29,9 +28,9 @@ nnoremap j gj
 nnoremap k gk
 nnoremap gj j
 nnoremap gk k
+
 "----------leader mappings----------------------------------------------------
 nnoremap <leader>q :bd<CR>
-nnoremap <leader>p :VimFilerExplorer<CR>
 
 "move through tabs
 nnoremap <C-t>     :tabnew<CR>
@@ -50,8 +49,8 @@ nnoremap <leader>vp :vsp<CR>
 nnoremap <leader>sp :sp<CR>
 
 " easymotion search
-map  <leader>/ <Plug>(easymotion-sn)
-omap <leader>/ <Plug>(easymotion-tn)
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
 
 
 nmap <leader><CR> <Plug>(wildfire-quick-select)
@@ -62,17 +61,9 @@ if has('macunix')
     map <D-l> :buffers<CR>
     nnoremap<D-j> <C-w>l
     nnoremap<D-k> <C-w>h
-    autocmd filetype cpp nnoremap<D-b> :silent Shell clang++ -std=c++14 % -o %:r.out<CR>
-    nnoremap<D-b> :SCCompileAF
-    "autocmd filetype cpp nnoremap<D-r> ! clang++ -std=c++14 % -o %:r && ./%:r<CR>
-    "autocmd filetype cpp nnoremap<D-r> :SCCompileRunAF -std=c++14<CR>
+    nnoremap<D-b> :SCCompile<CR>
+    nnoremap<D-r> :SCCompileRun<CR>
 endif
-"nnoremap<leader>b :SCCompileAF
-
-"autocmd filetype cpp nnoremap<leader>b :silent Shell clang++ -std=c++14 % -o %:r<CR>
-"autocmd filetype cpp :UltiSnipsAddFiletypes cpp
-
-"autocmd filetype cpp nnoremap<leader>r :SCCompileRunAF -std=c++14<CR>
 
 augroup myvimrc
     au!
@@ -80,21 +71,7 @@ augroup myvimrc
 augroup END
 
 
-"just scroll
-"map <Down> 2<C-e>
-"map <Up> 2<C-y>
-
-"nnoremap <leader>o :<C-u>Unite -buffer-name=files buffer neomru/file file_rec/async<CR>
-"nnoremap <leader>y :<C-u>Unite history/yank<CR>
-"nnoremap <leader>f :<C-u>Unite outline<CR>
-"nnoremap <leader>s :<C-u>Unite session<CR>
-"nnoremap <leader>c :<C-u>Unite -horizontal -direction=botright -buffer-name=unite_commands command mapping<CR>
-"doesn't seem to work
-"nnoremap <leader>t :<C-u>Unite tag<CR>
-"nnoremap <leader>y :<C-u>Unite history/yank<CR>
-
 "use <C-h> to clear the highlight of search hits
 nnoremap <C-h> :nohls<CR>
-"inoremap <C-l> <C-O>:nohls<CR>
 
 "------------------------------------------------------------------------------------------------

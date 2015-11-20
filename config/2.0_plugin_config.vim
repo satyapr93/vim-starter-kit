@@ -102,11 +102,6 @@ let g:ctrlp_cmd = 'CtrlPMixed'
 let g:ctrlp_working_path_mode = 'ra'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.out    " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-"let g:ctrlp_custom_ignore = {
-            "\ 'dir':  '\v[\/]\.(git|hg|svn)$',
-            "\ 'file': '\v\.(exe|so|dll)$',
-            "\ 'link': 'some_bad_symbolic_links',
-            "\ }
 
 "------[easymotion settings]---------------------------------
 let g:EasyMotion_smartcase = 1
