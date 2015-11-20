@@ -25,10 +25,11 @@ Basic Vim configuration for users switching to Vim from other modern editors.
 * Enjoy.
 
 ## Modifier Keys (`Ctrl`, `Meta`, `Leader`, `Shift`)
-* `C-x` (Control + x)
-* `M-x` (Meta + x)
-* `S-x` (Shift + x)
+* `C-x`       (Control + x)
+* `M-x`       (Meta + x)
+* `S-x`       (Shift + x)
 * `<leader>x` (Leader, x)
+
 I've modified `Leader` key to `<Space>` (default `Leader` = `\`) for the convenient. You can set your own `Leader` key and `Meta` key.
 
 ## Shortcuts
