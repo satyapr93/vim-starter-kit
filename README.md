@@ -41,4 +41,7 @@ These are the Shortcuts I have added in `~/.vimrc`.
 
 ## Screenshots
 
-![Preview](_assets/preview.png "Preview.")
+![Preview](_assets/preview_0.png "Preview.")
+
+
+![Preview](_assets/preview_1.png "Preview.")
