@@ -15,3 +15,5 @@ Basic Vim configuration for users switching to Vim from other modern editors.
 
   ``` $ vim +PlugInstall ```
 * Enjoy.
+
+![Preview](_assets/preview.png "Preview.")
