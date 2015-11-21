@@ -35,24 +35,25 @@ I've modified `Leader` key to `<Space>` (default `Leader` = `\`) for the conveni
 ## Shortcuts
 These are some of the Shortcuts you should know.
 
-* `<Arrow keys>` : `NOP` (Arrow key for navigating file doesn't work, use `hjkl` instead)
-* `<jk>` : `<ESC>` (to switch to Normal mode from Insert mode, press `jk`)
-* `<;>`  : `<:>` (Switch to command mode form normal mode bye pressing `;(:)`)
-* `<C-p>` or `<leader>o` : Quickly open files using fuzzy search (Ctrl-P)
-* `<C-n>` : Multiple cursor editing (inspired from Sublime-text `<C-d>`)
-* `/` : Search for strings in current file
-* `<Enter>` : Visually select nearest scope. Press again to increase the selection scope.
-* `<leader>`(motion-commands<hjkl,wb>) : Easymotion commands for fast navigation
-* `<C-d>` : Page down (Half)
-* `<C-u>` : Page up (Half)
-* `gg` : go to top of the file.
-* `<S-g>` or `G` : go to end of the file.
-* `<S-m>` or `M` : go to middle of the frame.
-* `o` : Insert a new line after the current line and start editing.
-* `<S-o>` or `O` : Insert a new line before current line and start editing.
-* `<S-a>` or `A` : Go to end of the line and start editing.
-* `<S-i>` or `I` : Go to start of the line and start editing.
+* `<Arrow keys>`          : `NOP` (Arrow key for navigating file doesn't work, use `hjkl` instead)
+* `<jk>`                  : `<ESC>` (to switch to Normal mode from Insert mode, press `jk`)
+* `<;>`                   : `<:>` (Switch to command mode form normal mode bye pressing `;(:)`)
+* `<C-p>` or `<leader>o`  : Quickly open files using fuzzy search (Ctrl-P)
+* `<C-n>`                 : Multiple cursor editing (inspired from Sublime-text `<C-d>`)
+* `<Enter>`               : Visually select nearest scope. Press again to increase the selection scope.
+* `<leader>`(<hjklwb>)    : Easymotion commands for fast navigation
 
+### Default Shortcuts
+* `/`             : Search for strings in current file
+* `<C-d>`         : Page down (Half)
+* `<C-u>`         : Page up (Half)
+* `gg`            : Go to top of the file.
+* `<S-g>` or `G`  : Go to end of the file.
+* `<S-m>` or `M`  : Go to middle of the frame.
+* `<S-a>` or `A`  : Go to end of the line and start editing.
+* `<S-i>` or `I`  : Go to start of the line and start editing.
+* `o`             : Insert a new line after the current line and start editing.
+* `<S-o>` or `O`  : Insert a new line before current line and start editing.
 
 You can define you own key mapping for most used commands and functions by editing the file `~/.vimrc`.
 
